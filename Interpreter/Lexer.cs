@@ -255,6 +255,7 @@ namespace Interpreter
 
                 if (state == -1)
                 {
+                    storage.lexems[storage.lexems.Count - 1].character--;
                     state = 0;
                     i--;
                     character--;

@@ -284,8 +284,15 @@ namespace Interpreter
                     {
                         if (rule_table[symbol * -1 - 1, lexem][0] == -18)
                         {
-                            //error
-                            Console.WriteLine("1");
+                            storage.RPN.Add("Ошибка в строке: " + storage.lexems[i].line + " Символ: " + storage.lexems[i].character + " Встречено: " + storage.lexems[i].str + " , ожидалось: ");
+                            for (int j = 0; j < 26; j++)
+                            {
+                                if (rule_table[symbol * -1 -1, i][0] != -18)
+                                {
+                                    storage.RPN[storage.RPN.Count - 1] += lexem_code_to_str_err(i) + ", ";
+                                }
+                            }
+                            storage.RPN_types.Add("Error");
                             return;
                         }
                     }

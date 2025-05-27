@@ -6,7 +6,7 @@ Parser parser = new Parser(storage);
 
 Console.WriteLine("Лексический анализатор\n");
 
-/*string program = "{\n" +
+string program = "{\n" +
                       "int[3] vec;\n" +
                       "int a;\n" +
                       "vec[0] = 2; vec[1] = 5; vec[2] = 7; a = 0;\n" +
@@ -19,9 +19,8 @@ Console.WriteLine("Лексический анализатор\n");
                       "{\n" +
                       "    a = a * -1;\n"+
                       "}\n" + 
-                  "}"; // <- ДЕНЧИК ЭТО РАБОТАЕТ*/
+                  "}"; // <- ДЕНЧИК ЭТО РАБОТАЕТ
 
-string program = "{int a;}";
 
 lexer.Analyze(program);
 
@@ -30,6 +29,11 @@ Console.WriteLine("Номер " + "Лексема " + "Строка:символ
 for (int i = 0; i < storage.lexems.Count; i++)
 {
     Console.WriteLine(storage.lexems[i].ToString());
+}
+
+if (storage.lexems[storage.lexems.Count - 1].code == -1)
+{
+    return;
 }
 
 parser.Analyze();
