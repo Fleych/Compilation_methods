@@ -1,0 +1,48 @@
+{
+	int[256] a;
+	int n;
+	int i;
+	int j;
+	int max;
+	int temp;
+
+	read(n);
+
+	i = 0;
+	while (i < n)
+	{
+		read(a[i]);
+
+		i = i + 1;
+	}
+
+	i = 0;
+	while (i < n)
+	{
+		j = 0;
+		max = j;
+		while (j < n - i)
+		{
+			if (a[j] > a[max])
+			{
+				max = j;
+			}
+
+			j = j + 1; 
+		}
+
+		temp = a[n - i - 1];
+ 		a[n - i - 1] = a[max];
+		a[max] = temp;
+		
+		i = i + 1;
+	}
+
+	i = 0;
+	while (i < n)
+	{
+		write(a[i]);
+
+		i = i + 1;
+	}
+}

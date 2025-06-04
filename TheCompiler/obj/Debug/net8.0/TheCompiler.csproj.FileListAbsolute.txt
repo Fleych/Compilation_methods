@@ -1,0 +1,14 @@
+C:\MyFolder\University\Compilation methods\TheCompiler\bin\Debug\net8.0\TheCompiler.exe
+C:\MyFolder\University\Compilation methods\TheCompiler\bin\Debug\net8.0\TheCompiler.deps.json
+C:\MyFolder\University\Compilation methods\TheCompiler\bin\Debug\net8.0\TheCompiler.runtimeconfig.json
+C:\MyFolder\University\Compilation methods\TheCompiler\bin\Debug\net8.0\TheCompiler.dll
+C:\MyFolder\University\Compilation methods\TheCompiler\bin\Debug\net8.0\TheCompiler.pdb
+C:\MyFolder\University\Compilation methods\TheCompiler\obj\Debug\net8.0\TheCompiler.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFolder\University\Compilation methods\TheCompiler\obj\Debug\net8.0\TheCompiler.AssemblyInfoInputs.cache
+C:\MyFolder\University\Compilation methods\TheCompiler\obj\Debug\net8.0\TheCompiler.AssemblyInfo.cs
+C:\MyFolder\University\Compilation methods\TheCompiler\obj\Debug\net8.0\TheCompiler.csproj.CoreCompileInputs.cache
+C:\MyFolder\University\Compilation methods\TheCompiler\obj\Debug\net8.0\TheCompiler.dll
+C:\MyFolder\University\Compilation methods\TheCompiler\obj\Debug\net8.0\refint\TheCompiler.dll
+C:\MyFolder\University\Compilation methods\TheCompiler\obj\Debug\net8.0\TheCompiler.pdb
+C:\MyFolder\University\Compilation methods\TheCompiler\obj\Debug\net8.0\TheCompiler.genruntimeconfig.cache
+C:\MyFolder\University\Compilation methods\TheCompiler\obj\Debug\net8.0\ref\TheCompiler.dll

@@ -1,0 +1,16 @@
+{
+	int a;
+	int b;
+	int x;
+	int y;
+	int res;
+
+	read(a);
+	read(b);
+	read(x);
+	read(y);
+
+	res = (x + y) * (a * x - b * y);
+	
+	write(res);
+}
